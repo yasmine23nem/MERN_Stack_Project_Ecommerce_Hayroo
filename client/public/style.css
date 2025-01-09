@@ -1460,7 +1460,7 @@ video {
 
 .divide-teal-600 > :not(template) ~ :not(template) {
   --divide-opacity: 1;
-  border-color: #319795;
+  border-color: #57e822;
   border-color: rgba(49, 151, 149, var(--divide-opacity));
 }
 

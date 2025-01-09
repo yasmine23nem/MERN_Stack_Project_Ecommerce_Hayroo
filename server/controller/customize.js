@@ -26,7 +26,7 @@ class Customize {
       let newCustomzie = new customizeModel({
         slideImage: image,
       });
-      let save = await newCustomzie.save();
+      let save = await newCustomzie.save(); // Save Image to Database -> customizes collection in database
       if (save) {
         return res.json({ success: "Image upload successfully" });
       }
