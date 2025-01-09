@@ -1802,6 +1802,11 @@ video {
   background-color: #fff;
   background-color: rgba(255, 255, 255, var(--bg-opacity));
 }
+.bg-beige {
+  --bg-opacity: 1;
+  background-color: #f5f5dc;
+  background-color: rgba(245, 245, 220, var(--bg-opacity));
+}
 
 .bg-gray-100 {
   --bg-opacity: 1;
@@ -13393,6 +13398,9 @@ video {
   --text-opacity: 1;
   color: #2d3748;
   color: rgba(45, 55, 72, var(--text-opacity));
+}
+.text-bordeau {
+    color : #7c1529;
 }
 
 .text-gray-900 {
